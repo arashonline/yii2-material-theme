@@ -1,6 +1,6 @@
 <?php
     $menu = $img = "";
-    $config = new rce\material\Config();
+    $config = new arashonline\material\Config();
     if (class_exists('common\models\Menu')) {
         // advence template
         $menu = common\models\Menu::getMenu();

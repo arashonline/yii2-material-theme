@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
- namespace rce\material\grid;
+ namespace arashonline\material\grid;
 
 use Yii;
 use Closure;

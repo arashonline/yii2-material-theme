@@ -5,7 +5,7 @@
 /* @var $message string */
 /* @var $exception Exception */
 use yii\helpers\Html;
-use rce\material\widgets\Noti;
+use arashonline\material\widgets\Noti;
 
 $this->title = $name;
 ?>

@@ -1,5 +1,5 @@
 <?php
-namespace rce\material;
+namespace arashonline\material;
 
 use Yii;
 
@@ -8,7 +8,7 @@ class Config
     public static function sidebarColor()
     {
         /** @var Asset $bundle */
-        $bundle = Yii::$app->assetManager->getBundle('rce\material\Assets');
+        $bundle = Yii::$app->assetManager->getBundle('arashonline\material\Assets');
 
         return $bundle->sidebarColor;
     }
@@ -17,7 +17,7 @@ class Config
     public static function sidebarBackgroundColor()
     {
         /** @var Asset */
-        $bundle = Yii::$app->assetManager->getBundle('rce\material\Assets');
+        $bundle = Yii::$app->assetManager->getBundle('arashonline\material\Assets');
 
         return $bundle->sidebarBackgroundColor;
     }
@@ -25,7 +25,7 @@ class Config
     public static function sidebarBackgroundImage()
     {
         /** @var Asset */
-        $bundle = Yii::$app->assetManager->getBundle('rce\material\Assets');
+        $bundle = Yii::$app->assetManager->getBundle('arashonline\material\Assets');
 
         return $bundle->sidebarBackgroundImage;
     }
@@ -33,7 +33,7 @@ class Config
     public static function siteTitle()
     {
         /** @var Asset */
-        $bundle = Yii::$app->assetManager->getBundle('rce\material\Assets');
+        $bundle = Yii::$app->assetManager->getBundle('arashonline\material\Assets');
 
         return $bundle->siteTitle;
     }
@@ -41,7 +41,7 @@ class Config
     public static function logoMini()
     {
         /** @var Asset */
-        $bundle = Yii::$app->assetManager->getBundle('rce\material\Assets');
+        $bundle = Yii::$app->assetManager->getBundle('arashonline\material\Assets');
 
         return $bundle->logoMini;
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace rce\material\widgets;
+namespace arashonline\material\widgets;
 
 use yii\helpers\Html;
 

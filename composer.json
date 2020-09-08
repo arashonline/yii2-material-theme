@@ -1,5 +1,5 @@
 {
-    "name": "ricar2ce/yii2-material-theme",
+    "name": "arashonline/yii2-material-theme",
     "description": "Material Theme for Yii2",
     "Language":["yii2","php","material"],
     "type": "yii2-extension",
@@ -7,8 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Ricardo Comendador Escalona",
-            "email": "ricar2ce@gmail.com"
+            "name": "Arash ",
+            "email": "arash.rabiee.88@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "rce\\material\\": ""
+            "arashonline\\material\\": ""
         }
     }
 }

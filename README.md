@@ -31,13 +31,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer require --prefer-dist ricar2ce/yii2-material-theme "*"
+php composer require --prefer-dist arashonline/yii2-material-theme "*"
 ```
 
 or add
 
 ```
-"ricar2ce/yii2-material-theme": "*"
+"arashonline/yii2-material-theme": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -54,7 +54,7 @@ Once the extension is installed, you can have a **preview** by reconfiguring the
     'view' => [
         'theme' => [
             'pathMap' => [
-                '@app/views' => '@vendor/ricar2ce/yii2-material-theme/view'
+                '@app/views' => '@vendor/arashonline/yii2-material-theme/view'
             ],
         ],
     ],
@@ -71,8 +71,8 @@ Or in your layouts/main.php include followin code for use de assets
 use yii\dependencies
 */
 //Register class
-if (class_exists('rce\material\Assets')) {
-    rce\material\Assets::register($this); ?>
+if (class_exists('arashonline\material\Assets')) {
+    arashonline\material\Assets::register($this); ?>
 }
 ?>
 <?php $this->beginPage() ?>
@@ -85,7 +85,7 @@ if (class_exists('rce\material\Assets')) {
 Customization
 -------------
 
-- Copy files from `vendor/ricar2ce/yii2-material-theme/view`
+- Copy files from `vendor/arashonline/yii2-material-theme/view`
 - Remove the custom `view` configuration from your application by entered the new path mappings, if you have made them before.
 -------------
 
@@ -116,7 +116,7 @@ Default config.
 'components' => [
     'assetManager' => [
         'bundles' => [
-            'rce\material\Assets' => [
+            'arashonline\material\Assets' => [
 	              'siteTitle' = 'Your Site Name',
                 'sidebarColor' => 'azure',
                 'sidebarBackgroundColor' => 'black',
@@ -190,7 +190,7 @@ example:
 namespace common\models;
 
 use Yii;
-use rce\material\widgets\Menu as RCEmenu;
+use arashonline\material\widgets\Menu as RCEmenu;
 
 class Menu  
 {
@@ -246,7 +246,7 @@ Usage
 ---
 Add widget to your `layout/main` :
 ```php
-use rce\material\widgets\Noti;
+use arashonline\material\widgets\Noti;
 
 <?= Noti::widget(); ?>
 ```
@@ -271,7 +271,7 @@ Yii::$app->session->setFlash('info', ['message 1', 'message 2']);
 
 Render message without the session flash
 ```php
-<?= rce\material\widgets\Noti::widget([
+<?= arashonline\material\widgets\Noti::widget([
     'useSessionFlash' => false,
     'options' => [
         'message' => 'Your message',

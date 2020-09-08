@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
-use rce\material\widgets\Noti;
-use rce\material\Assets;
+use arashonline\material\widgets\Noti;
+use arashonline\material\Assets;
 
 if (Yii::$app->controller->action->id === 'login') {
     echo $this->render(

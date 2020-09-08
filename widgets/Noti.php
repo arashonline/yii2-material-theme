@@ -1,5 +1,5 @@
 <?php
-namespace rce\material\widgets;
+namespace arashonline\material\widgets;
 use Yii;
 use yii\bootstrap\Widget;
 use yii\helpers\ArrayHelper;

@@ -1,6 +1,6 @@
 <?php
 
-use rce\material\widgets\Card;
+use arashonline\material\widgets\Card;
 /* @var $this yii\web\View */
 
 $this->title = 'My Yii Application';

@@ -1,6 +1,6 @@
 <?php
 
-namespace rce\material;
+namespace arashonline\material;
 
 use yii\web\AssetBundle;
 

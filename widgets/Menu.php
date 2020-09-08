@@ -1,5 +1,5 @@
 <?php
-namespace rce\material\widgets;
+namespace arashonline\material\widgets;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Url;
@@ -13,7 +13,7 @@ class Menu extends \yii\widgets\Menu
     /**
      * @inheritdoc
      */
-    public $linkTemplate = '<a href="{url}">{icon} {label}</a>';
+    public $linkTemplate = '<a href="{url}" class="nav-link">{icon} {label}</a>';
     public $submenuTemplate = "\n<ul class='nav tree' {show}>\n{items}\n</ul>\n";
     public $activateParents = true;
     public $dropdownIcon = '<span class="pull-right"><i class="material-icons">arrow_drop_down</i></span>';
